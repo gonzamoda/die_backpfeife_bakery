@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/gonzamoda/die_backpfeife_bakery.git/static/css/main.6d03f60e.css",
-    "main.js": "/gonzamoda/die_backpfeife_bakery.git/static/js/main.6e29a08c.js",
-    "static/media/home_background.jpg": "/gonzamoda/die_backpfeife_bakery.git/static/media/home_background.74f8a91acd3e7090242f.jpg",
-    "static/media/about_us.jpg": "/gonzamoda/die_backpfeife_bakery.git/static/media/about_us.a31b556d67269ff24148.jpg",
-    "static/media/home_background_desk.jpg": "/gonzamoda/die_backpfeife_bakery.git/static/media/home_background_desk.091975c2f43c22e97159.jpg",
-    "static/media/logo_w.png": "/gonzamoda/die_backpfeife_bakery.git/static/media/logo_w.1a6f528675a45534a160.png",
-    "index.html": "/gonzamoda/die_backpfeife_bakery.git/index.html",
-    "main.6d03f60e.css.map": "/gonzamoda/die_backpfeife_bakery.git/static/css/main.6d03f60e.css.map",
-    "main.6e29a08c.js.map": "/gonzamoda/die_backpfeife_bakery.git/static/js/main.6e29a08c.js.map"
+    "main.css": "/die_backpfeife_bakery/static/css/main.c1169ef3.css",
+    "main.js": "/die_backpfeife_bakery/static/js/main.18029a57.js",
+    "static/media/home_background.jpg": "/die_backpfeife_bakery/static/media/home_background.74f8a91acd3e7090242f.jpg",
+    "static/media/about_us.jpg": "/die_backpfeife_bakery/static/media/about_us.a31b556d67269ff24148.jpg",
+    "static/media/home_background_desk.jpg": "/die_backpfeife_bakery/static/media/home_background_desk.091975c2f43c22e97159.jpg",
+    "static/media/logo_w.png": "/die_backpfeife_bakery/static/media/logo_w.1a6f528675a45534a160.png",
+    "index.html": "/die_backpfeife_bakery/index.html",
+    "main.c1169ef3.css.map": "/die_backpfeife_bakery/static/css/main.c1169ef3.css.map",
+    "main.18029a57.js.map": "/die_backpfeife_bakery/static/js/main.18029a57.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d03f60e.css",
-    "static/js/main.6e29a08c.js"
+    "static/css/main.c1169ef3.css",
+    "static/js/main.18029a57.js"
   ]
 }

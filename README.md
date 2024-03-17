@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+Demo: https://gonzamoda.github.io/die_backpfeife_bakery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bakery Online Ordering System
 
-## Available Scripts
+Welcome to the Bakery Online Ordering System! This web application allows customers to conveniently place orders online for pickup at the bakery. Additionally, it provides administrative tools for managing products, orders, and daily production schedules.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Customer Ordering:** Customers can browse bakery products, add items to their cart, specify pickup date and time, and complete orders securely online.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Admin Dashboard:** Administrators have access to a dashboard where they can manage products, view orders, and schedule daily production tasks.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Product Database:** Maintain a database of bakery products, including details such as name, description, price, and availability.
 
-### `npm test`
+- **Order Database:** Keep track of customer orders, including order details, pickup dates, and status.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Daily Production Schedule:** Plan production tasks for each day, including what items need to be baked and prepared based on incoming orders.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React:** The front-end of the application is built using React.js, providing a fast and responsive user interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Firebase:** Firebase is used as the backend service to store and manage data, including the product database, order database, and authentication system.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React Router:** Utilize React Router for client-side routing, enabling seamless navigation between different pages of the application.
 
-### `npm run eject`
+- **Material-UI:** Material-UI is used for designing a sleek and modern user interface with pre-built React components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the Bakery Online Ordering System locally, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository to your local machine:
+git clone https://github.com/your/repository.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
+cd bakery-online-ordering-system
 
-## Learn More
+3. Install dependencies using npm or yarn:
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Customers can visit the website, browse available products, and place orders for pickup.
+- Administrators can log in to the admin dashboard to manage products, view orders, and schedule daily production tasks.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions to the Bakery Online Ordering System are welcome! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the MIT License.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Bakery Online Ordering System - Bringing Fresh Baked Goods to Your Fingertips*

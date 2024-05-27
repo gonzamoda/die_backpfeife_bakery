@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/die_backpfeife_bakery/static/css/main.470c6b96.css",
-    "main.js": "/die_backpfeife_bakery/static/js/main.b702f40b.js",
+    "main.css": "/die_backpfeife_bakery/static/css/main.dce7d24f.css",
+    "main.js": "/die_backpfeife_bakery/static/js/main.f5f8d6d2.js",
     "static/media/home_background.jpg": "/die_backpfeife_bakery/static/media/home_background.74f8a91acd3e7090242f.jpg",
     "static/media/about_us.jpg": "/die_backpfeife_bakery/static/media/about_us.a31b556d67269ff24148.jpg",
     "static/media/home_background_desk.jpg": "/die_backpfeife_bakery/static/media/home_background_desk.091975c2f43c22e97159.jpg",
     "static/media/logo_w.png": "/die_backpfeife_bakery/static/media/logo_w.1a6f528675a45534a160.png",
     "index.html": "/die_backpfeife_bakery/index.html",
-    "main.470c6b96.css.map": "/die_backpfeife_bakery/static/css/main.470c6b96.css.map",
-    "main.b702f40b.js.map": "/die_backpfeife_bakery/static/js/main.b702f40b.js.map"
+    "main.dce7d24f.css.map": "/die_backpfeife_bakery/static/css/main.dce7d24f.css.map",
+    "main.f5f8d6d2.js.map": "/die_backpfeife_bakery/static/js/main.f5f8d6d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.470c6b96.css",
-    "static/js/main.b702f40b.js"
+    "static/css/main.dce7d24f.css",
+    "static/js/main.f5f8d6d2.js"
   ]
 }

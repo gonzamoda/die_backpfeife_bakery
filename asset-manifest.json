@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/die_backpfeife_bakery/static/css/main.e77778ca.css",
-    "main.js": "/die_backpfeife_bakery/static/js/main.9dbaa282.js",
+    "main.js": "/die_backpfeife_bakery/static/js/main.229d75da.js",
     "static/media/home_background_desk.jpg": "/die_backpfeife_bakery/static/media/home_background_desk.2a63396cba1772297082.jpg",
     "static/media/home_background.jpg": "/die_backpfeife_bakery/static/media/home_background.32803baf0728fd15899d.jpg",
     "static/media/about_us.jpg": "/die_backpfeife_bakery/static/media/about_us.617ad50bdf83051ac205.jpg",
     "static/media/logo_w.png": "/die_backpfeife_bakery/static/media/logo_w.1a6f528675a45534a160.png",
     "index.html": "/die_backpfeife_bakery/index.html",
     "main.e77778ca.css.map": "/die_backpfeife_bakery/static/css/main.e77778ca.css.map",
-    "main.9dbaa282.js.map": "/die_backpfeife_bakery/static/js/main.9dbaa282.js.map"
+    "main.229d75da.js.map": "/die_backpfeife_bakery/static/js/main.229d75da.js.map"
   },
   "entrypoints": [
     "static/css/main.e77778ca.css",
-    "static/js/main.9dbaa282.js"
+    "static/js/main.229d75da.js"
   ]
 }

@@ -1,0 +1,33 @@
+.emptyCart {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  width: 300px;
+}
+
+.cartButton {
+  background-color: #e39822;
+  border-style: none;
+}
+
+.cartList {
+  margin-top: 150px;
+  width: 75%;
+}
+
+.continueButton {
+  background-color: #e39822;
+  border: none;
+}
+
+.continueButton:hover {
+  background-color: #008337;
+  border-style: none;
+}
+
+.continueButtonContainer {
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}

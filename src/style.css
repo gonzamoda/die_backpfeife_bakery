@@ -2,128 +2,35 @@
   padding: 0;
   margin: 0;
   border: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background-color: rgb(240, 240, 240);
-}
-
-#cartWidget {
-  margin-right: 15px;
-  color: grey;
-  text-decoration: none;
-}
-
-#cartWidget:hover {
-  color: lightgrey;
-}
-
-.botonMasMenos {
-  width: 40px;
-  height: 40px;
-  padding: 0px;
-}
-
-.contadorItem {
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px 0px 10px 0px;
-  width: 100%;
-  text-align: center;
-}
-
-.botonAgregarCarrito {
-  width: 100%;
+  background-color: #f0ebe3;
 }
 
 ul li {
   list-style: none;
 }
 
-.imgDetail {
-  width: 100%;
-}
-
 .spinner {
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.itemCard {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#carrito {
-  position: relative;
-}
-
-.cantidadCarrito {
   position: absolute;
-  top: 0;
-  left: 55%;
-  background: red;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 2px;
-  font-family: Arial, Helvetica, sans-serif;
+  top: 50vh;
+  left: 50vw;
 }
 
-.carritoNoVisible {
-  display: none;
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role="tooltip"].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
 }
 
-#formularioUsuario {
-  margin-top: 50px;
-  width: 50%;
-  justify-content: center;
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
 }
-
-.input {
-  margin: 10px;
+[data-popup="tooltip"].popup-overlay {
+  background-color: white;
+  opacity: 80%;
 }
-
-.botonFormulario {
-  margin-top: 25px;
-  margin-left: 10px;
-}
-
-#nosotros {
-  padding-top: 50px;
-}
-
-.nosotrosImg {
-  width: 100%;
-}
-
-.botonSeguir {
-  margin-left: 25px;
-}
-
-.slider {
-  height: 300px;
-}
-
-.counterText {
-  padding-top: 6px;
-}
-
-/* Card */
-
-.cardTitle {
-  font-size: large;
-}
-
-.cardPrice {
-  font-size: xx-large;
-  margin-bottom: 10px;
-  color: rgb(0, 99, 219);
-}
-
-/* Card End */

@@ -1,0 +1,128 @@
+/*Escritorio*/
+p {
+  width: 40vw;
+}
+
+.home_text h5 {
+  font-weight: 600;
+  color: #e39822;
+}
+
+.home_text .white {
+  color: #ffffff;
+}
+
+@media (min-width: 1199.98px) {
+  .home_background {
+    background-image: url(../images/home_background_desk.jpg);
+    background-position: right center;
+  }
+  .home_background h1 {
+    font-size: 30pt;
+  }
+  .home_text {
+    margin-left: 15%;
+    padding-top: 15%;
+  }
+}
+/*Fin Escritorio*/
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+  .home_background {
+    background-image: url(../images/home_background.jpg);
+    background-position: center bottom;
+  }
+  .home_background h1 {
+    font-size: 30pt;
+  }
+  .home_text {
+    margin-left: 15%;
+    padding-top: 25%;
+  }
+}
+
+/*landscape*/
+@media (min-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
+  .home_background {
+    background-image: url(../images/home_background_desk.jpg);
+    background-position: center center;
+  }
+  .home_background h1 {
+    font-size: 30pt;
+  }
+  .home_text {
+    margin-left: 15%;
+    padding-top: 15%;
+  }
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px) and (orientation: portrait) {
+  .home_background {
+    background-image: url(../images/home_background.jpg);
+    background-position: center bottom;
+  }
+  .home_background h1 {
+    font-size: 18pt;
+  }
+  .home_text {
+    margin-left: 10%;
+    padding-top: 45%;
+  }
+
+  .home_text h5 {
+    font-size: 12pt;
+  }
+  p {
+    width: 60vw;
+  }
+}
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: landscape) {
+  .home_background {
+    background-image: url(../images/home_background_desk.jpg);
+    background-position: center bottom;
+  }
+  .home_background h1 {
+    font-size: 20pt;
+  }
+  .home_text {
+    margin-left: 15%;
+    padding-top: 13%;
+  }
+}
+/*fin movil*/
+
+.home_background {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.home_background h1 {
+  font-family: "Rock Salt", cursive;
+  color: white;
+}
+
+.home_text {
+  color: white;
+}
+
+.button_home {
+  margin-top: 10px;
+  background-color: #e39822;
+  border: none;
+  text-align: center;
+}
+
+.button_home:hover {
+  background-color: #473b2b;
+}

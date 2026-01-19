@@ -1,0 +1,80 @@
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  z-index: 9999 !important; /* Prioridad máxima sobre Bootstrap */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+
+  /* Asegura que todo el contenedor intente centrar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999 !important;
+}
+
+.cookie-content {
+  max-width: 960px;
+  width: 100%; /* Para que ocupe el ancho disponible */
+  margin: 0 auto;
+  text-align: center; /* CENTRADO FORZADO */
+}
+
+/* Forzar centrado en los textos internos por si acaso */
+.cookie-content h3,
+.cookie-content p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cookie-buttons {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.btn-accept {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px 10px; /* Un poco de margen vertical también */
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-reject {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cookie-links {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.cookie-link {
+  color: #bdc3c7;
+  text-decoration: underline;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.cookie-link:hover {
+  color: white;
+}
+
+.separator {
+  color: #7f8c8d;
+}

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "./ItemCount.css";
 
 const ItemCount = ({ stock, initial, onAdd }) => {
   const [estado, setContador] = useState(initial);
@@ -30,34 +31,25 @@ const ItemCount = ({ stock, initial, onAdd }) => {
 
   return (
     <>
-      <Container fluid>
-        <Row className="contadorItem mt-4">
-          <Col xs={4}>
-            <Row>
-              <Col>
-                <Button className="botonMasMenos" onClick={restarContador}>
-                  {" "}
-                  -{" "}
-                </Button>
-              </Col>
-              <Col>
-                <p className="counterText">{estado}</p>
-              </Col>
-              <Col>
-                <Button className="botonMasMenos" onClick={sumarContador}>
-                  {" "}
-                  +{" "}
-                </Button>
-              </Col>
-            </Row>
+      <Container id="counter" fluid>
+        <Row>
+          <Col className="p-0" md="2" xs="4">
+            <Button className="botonMasMenos" onClick={restarContador}>
+              -
+            </Button>
           </Col>
-          <Col>
-            <Button
-              className="botonAgregarCarrito"
-              variant="primary"
-              onClick={agregar}
-            >
-              Agregar al Carrito
+          <Col className="p-0" md="2" xs="4">
+            <h3 className="counterText">{estado}</h3>
+          </Col>
+          <Col className="p-0" md="2" xs="4">
+            <Button className="botonMasMenos" onClick={sumarContador}>
+              +
+            </Button>
+          </Col>
+
+          <Col className="containerButtonAdd" md="6">
+            <Button className="botonAgregarCarrito" onClick={agregar}>
+              Add
             </Button>
           </Col>
         </Row>

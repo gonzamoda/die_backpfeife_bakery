@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 import { useContext } from "react";
 import { contexto } from "./CartContext";
 import { Link } from "react-router-dom";
+import "./Cart.css";
 
 const Cart = () => {
   const { carrito } = useContext(contexto);
@@ -15,21 +16,24 @@ const Cart = () => {
     removeProduct(id);
   };
 
-  const precioTotal = carrito
-    .map((item) => item.precio)
+  const priceTotal = carrito
+    .map((item) => item.price.toFixed(2) * item.cantidad)
     .reduce((prev, curr) => prev + curr, 0);
 
   return carrito.length === 0 ? (
     <>
-      <h1>carrito vacio</h1>
-      <Button as={Link} to="/">
-        Ir al listado de productos
-      </Button>
+      <Container className="emptyCart">
+        <Row>
+          <h1>It´s empty :(</h1>
+          <Button className="cartButton" as={Link} to="/category">
+            Go to the product list
+          </Button>
+        </Row>
+      </Container>
     </>
   ) : (
     <>
-      <h1>Carrito</h1>
-      <Container>
+      <Container className="cartList">
         <Row>
           <Table>
             <thead>
@@ -43,9 +47,9 @@ const Cart = () => {
             <tbody>
               {carrito.map((element) => (
                 <tr key={element.id}>
-                  <td>{element.nombre}</td>
+                  <td>{element.name}</td>
                   <td>{element.cantidad}</td>
-                  <td>${element.precio}</td>
+                  <td>{element.price.toFixed(2)} €</td>
                   <td>
                     <Button
                       onClick={() => eliminar(element.id)}
@@ -60,13 +64,15 @@ const Cart = () => {
           </Table>
         </Row>
         <Row>
-          <h1>Total: ${precioTotal}</h1>
+          <h1>Total: {priceTotal.toFixed(2)} €</h1>
         </Row>
-        <Row>
-          <Button as={Link} to="/user">
-            COMPRAR
-          </Button>
-        </Row>
+        <Container className="continueButtonContainer">
+          <Row>
+            <Button className="continueButton" as={Link} to="/user">
+              Weiter
+            </Button>
+          </Row>
+        </Container>
       </Container>
     </>
   );

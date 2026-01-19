@@ -1,0 +1,169 @@
+.botonInfo {
+  width: 100%;
+  color: black;
+  background-color: white;
+  border-color: #e39822;
+}
+
+.botonInfo:hover {
+  color: white;
+  background-color: #e39822;
+  border-color: #e39822;
+}
+
+.cardTitle {
+  @media (min-width: 991.98px) {
+    font-size: 12pt;
+  }
+  @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+    font-size: 8pt;
+  }
+  @media (max-width: 575.98px) and (orientation: portrait) {
+    font-size: 14pt;
+  }
+  @media (min-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
+    font-size: 8pt;
+  }
+}
+
+.cardPrice {
+  font-size: x-large;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #e39822;
+  @media (max-width: 575.98px) and (orientation: portrait) {
+    font-size: xx-large;
+  }
+}
+
+.backButton {
+  width: 100%;
+  height: 39px;
+  padding: 0 0 0 0;
+  margin: 3px 0px 1px 0px;
+  background-color: #ce1126;
+  border-color: #ce1126;
+  color: white;
+}
+
+.backButton:hover {
+  background-color: #a01021;
+  border-color: #a01021;
+  color: white;
+}
+
+.cartButtonGo {
+  background-color: #e39822;
+  height: 39px;
+  margin: 3px 0px 1px 0px;
+  border-style: none;
+  width: 100%;
+  padding: 3px 0 0 0;
+}
+
+.cartButtonGo:hover {
+  background-color: #008337;
+}
+
+.containerButtonCart {
+  padding: 0 0 0 5px;
+}
+
+#containerButtonCart {
+  padding: 5px 0px 0px 0px;
+  margin: 0px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.itemCard {
+  margin-bottom: 20px;
+}
+
+.popup {
+  background-color: white;
+  width: 70vw;
+  height: 80vh;
+}
+
+.closePopup {
+  color: #ce1126;
+  position: absolute;
+
+  cursor: pointer;
+  @media (min-width: 991.98px) {
+    top: 0;
+    right: 10%;
+  }
+  @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+    top: -200px;
+    right: 10%;
+  }
+  @media (max-width: 575.98px) and (orientation: portrait) {
+    top: 80px;
+    right: 10%;
+    background-color: white;
+    border-radius: 100%;
+  }
+}
+
+.outForDelivery {
+  margin-top: 17px;
+  margin-bottom: 7px;
+  font-size: x-small;
+
+  @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+    margin-bottom: 0px;
+  }
+
+  @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+    font-size: xx-small;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+
+  @media (min-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
+    font-size: xx-small;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+}
+
+.image-container {
+  position: relative; /* Esto es crucial para posicionar el texto relativo a la imagen */
+  display: inline-block; /* Asegura que el contenedor tenga el tamaño de la imagen */
+}
+
+.weight::before {
+  content: ""; /* Pseudo-elemento para el fondo */
+  position: absolute;
+  bottom: 0; /* Pegado al borde inferior */
+  right: 0; /* Pegado al margen derecho */
+  width: 100%; /* Ajusta según el tamaño del fondo */
+  height: 100%; /* Ajusta según el tamaño del fondo */
+  background-color: #e39822; /* Fondo semitransparente */
+  border-top-left-radius: 5px; /* Radio en los vértices superiores e inferiores izquierdos */
+  border-bottom-left-radius: 5px;
+  z-index: -1; /* Asegura que esté detrás del texto */
+}
+
+.weight {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  padding: 5px;
+  @media (min-width: 991.98px) {
+    font-size: medium;
+  }
+  @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+    font-size: medium;
+  }
+  @media (max-width: 575.98px) and (orientation: portrait) {
+    font-size: x-large;
+  }
+  @media (min-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
+    font-size: medium;
+  }
+  z-index: 1;
+}

@@ -1,0 +1,29 @@
+.adminView {
+  margin: 150px 50px 0px 50px;
+}
+
+.logOutButton {
+  background-color: #ce1126;
+  border-width: 0;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.logOutButton:hover {
+  background-color: #8c1624;
+}
+
+.greyButton {
+  margin-top: 5px;
+  background-color: rgb(157, 157, 157);
+  border-width: 0;
+}
+
+.greyButton:hover {
+  background-color: grey;
+}
+
+.buttonContainer {
+  width: 60%;
+  justify-content: center;
+}

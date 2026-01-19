@@ -1,0 +1,32 @@
+#about_us {
+  padding: 10% 10% 5% 10%;
+
+  @media (max-width: 991.98px) {
+    margin-top: 110px;
+  }
+}
+
+#about_us h1 {
+  font-family: "Rock Salt", cursive;
+  color: #241f17;
+  font-size: 25pt;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  @media (max-width: 991.98px) {
+    margin-top: 25px;
+  }
+}
+
+#about_us h5 {
+  @media (min-width: 1199.98px) {
+    font-size: 12.5pt;
+  }
+}
+
+.about_us_img {
+  width: 100%;
+  @media (min-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
+    height: 730px;
+    object-fit: cover;
+  }
+}
